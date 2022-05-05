@@ -1,0 +1,61 @@
+@import "vars";
+.story {
+  margin-top: 128px;
+  &__inner {
+    margin: 0;
+    padding: 0 100px;
+  }
+  &__title {
+    padding-bottom: 32px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    /* identical to box height, or 138% */
+    text-align: center;
+    color: #1f1e1e;
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__box2 {
+    max-width: 540px;
+    height: 540px;
+    background-color: #d5d8d1;
+  }
+  &__text1 {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 180px;
+  }
+  &__text2 {
+    padding: 32px 66px 0 67px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #1f1e1e;
+  }
+  &__text3 {
+    padding-top: 8px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #1f1e1e;
+  }
+}

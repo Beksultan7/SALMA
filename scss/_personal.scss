@@ -1,0 +1,72 @@
+.personal {
+  margin-top: 63px;
+  background-color: #b6aca9;
+  &__inner {
+    margin: 0;
+  }
+  &__box1 {
+    max-height: 489px;
+    max-width: 875px;
+    padding-top: 64px;
+  }
+  &__title {
+    padding: 0 84px 0 84px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 56px;
+    color: #1f1e1e;
+  }
+  &__title1 {
+    padding: 0 84px 28px 84px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 56px;
+    color: #1f1e1e;
+  }
+  &__img {
+    z-index: 1;
+  }
+  &__wrapper {
+    display: flex;
+    gap: 128px;
+  }
+  &__box2 {
+    max-width: 301px;
+    max-height: 176px;
+    margin: 402px 0 64px 0;
+    max-width: 301px;
+    height: 163px;
+  }
+  &__text {
+    padding-bottom: 18px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* or 133% */
+    color: #1f1e1e;
+  }
+  &__toggle {
+    padding: 13px 30px 17px 30px;
+    background-color: #1f1e1e;
+  }
+  &__link {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}

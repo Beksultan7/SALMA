@@ -1,0 +1,113 @@
+@import "vars";
+.house {
+  margin-top: 130px;
+  &__inner {
+    margin: 0;
+    padding: 0;
+  }
+  /*wrapper1*/
+  &__wrapper1 {
+    display: flex;
+    gap: 291px;
+  }
+  &__box1 {
+    width: 413px;
+    height: 276px;
+  }
+  &__title {
+    padding-right: 60px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 56px;
+    color: #1f1e1e;
+  }
+  &__text {
+    padding-top: 28px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.4px;
+    color: #1f1e1e;
+  }
+  &__box2 {
+    max-width: 414px;
+    height: 267px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  &__text2 {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1f1e1e;
+  }
+  &__wrapper2 {
+    padding: 82px 22px 64px 144px;
+    display: flex;
+    gap: 188px;
+  }
+  &__box3 {
+    max-width: 529px;
+    height: 363px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    gap: 32px;
+  }
+  &__text3 {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1f1e1e;
+  }
+  &__box4 {
+    max-width: 410px;
+    height: 267px;
+    margin-top: 141px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  &__text4 {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1f1e1e;
+  }
+  &__box5 {
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text5 {
+    max-width: 154px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #1f1e1e;
+  }
+}

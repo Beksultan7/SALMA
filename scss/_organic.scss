@@ -1,0 +1,130 @@
+.organic {
+  margin: 0;
+  &__inner {
+    padding-bottom: 55px;
+    margin: 0;
+  }
+  &__wrapper {
+    display: grid;
+    grid-row-gap: 8px;
+    grid-column-gap: 8px;
+  }
+  /*box1*/
+  &__box1 {
+    height: 720px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(../images/organic.png);
+  }
+  &__text {
+    padding: 217px 855px 16px 215px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__title {
+    padding: 0 730px 44px 91px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__toggle {
+    padding: 13px 30px 17px 30px;
+    background: #1f1e1e;
+    border-radius: 4px;
+    margin: 0 862px 218px 222px;
+  }
+  &__click {
+    margin: 0;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $accent;
+  }
+  /*box2*/
+  &__box2 {
+    height: 636px;
+    width: 636px;
+    background-image: url(../images/img1.jpg);
+  }
+  &__title2 {
+    padding: 516px 360px 10px 44px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  &__text2 {
+    padding: 0 520px 46px 44px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  /*box3*/
+  &__box3 {
+    height: 636px;
+    width: 636px;
+    background-image: url(../images/img2.jpg);
+  }
+  &__title3 {
+    padding: 516px 299px 16px 44px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  &__text3 {
+    padding: 0 52px 46px 44px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__box4 {
+    width: 906px;
+    height: 144px;
+    margin: 0 auto;
+  }
+  &__text4 {
+    padding-top: 69px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #1f1e1e;
+    justify-content: center;
+  }
+}

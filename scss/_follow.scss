@@ -1,0 +1,73 @@
+.follow {
+  margin-top: 149px;
+  &__inner {
+    padding: 0 64px 64px 64px;
+  }
+  &__title {
+    padding: 0 352px 56px 347px;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    color: #1f1e1e;
+  }
+  &__span {
+    color: #a3a1a1;
+  }
+  &__toggle {
+    margin: 0 493px 0 494px;
+    background-color: #1f1e1e;
+    padding: 13px 30px 17px 30px;
+  }
+  &__link {
+    text-decoration: none;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__wrapper {
+    margin-top: 64px;
+    display: flex;
+  }
+  &__box1 {
+    margin: 0;
+    background-image: url(../images/follow-img1.png);
+    max-width: 264px;
+    max-height: 264px;
+  }
+  &__box2 {
+    background-image: url(../images/folllow-img2.png);
+    max-width: 264px;
+    max-height: 264px;
+  }
+  &__box3 {
+    max-width: 264px;
+    max-height: 264px;
+  }
+  &__box4 {
+    background-image: url(../images/folllow-img4.png);
+    max-width: 264px;
+    max-height: 264px;
+  }
+  &__text {
+    margin: 0;
+    padding-top: 8.8px;
+    border-top: 1px solid #ffffff3d;
+    margin: 222px 31px 10px 12px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+  }
+}
